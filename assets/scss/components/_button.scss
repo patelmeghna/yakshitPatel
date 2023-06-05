@@ -2,7 +2,6 @@
 /*  07. Button CSS START
 /*----------------------------------------*/
 
-
 .wc-btn {
   &-primary {
     display: flex;
@@ -109,21 +108,19 @@
     line-height: 1.5;
     text-align: center;
     text-transform: uppercase;
-    color: var(--black-2);
-    border: 1.3px solid var(--black-2);
+    color: var(--bs-body-color);
+    border: 1.3px solid var(--bs-body-color);
     border-radius: 33px;
     padding: 20px 54px;
     transition: all 0.3s;
 
     &:hover {
-      color: var(--black-2);
-      background-color: var(--white);
-      border-color: var(--white);
+      color: var(--white);
+      background-color: var(--bs-body-color);
+      border-color: var(--bs-body-color);
     }
   }
 }
-
-
 
 // Button Animation
 #btn_wrapper {

@@ -1872,16 +1872,16 @@ img {
   line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
-  color: var(--black-2);
-  border: 1.3px solid var(--black-2);
+  color: var(--bs-body-color);
+  border: 1.3px solid var(--bs-body-color);
   border-radius: 33px;
   padding: 20px 54px;
   transition: all 0.3s;
 }
 .wc-btn-dark:hover {
-  color: var(--black-2);
-  background-color: var(--white);
-  border-color: var(--white);
+  color: var(--white);
+  background-color: var(--bs-body-color);
+  border-color: var(--bs-body-color);
 }
 
 #btn_wrapper {
@@ -9624,7 +9624,7 @@ img {
   width: 50px;
   height: 50px;
   background: transparent;
-  border: 1px solid #D6D6D6;
+  border: 1px solid #d6d6d6;
   opacity: 1;
   position: relative;
   transition: all 0.3s;
@@ -9661,7 +9661,7 @@ img {
   left: 50%;
   top: 50%;
   border-radius: 50px;
-  background-color: #D6D6D6;
+  background-color: #d6d6d6;
   transform: translate(-50%, -50%);
 }
 .portfolio__slider-2-pagination .swiper-pagination-bullet-active, .portfolio__slider-2-pagination .swiper-pagination-bullet:hover {
@@ -10235,6 +10235,9 @@ img {
   font-size: 36px;
   line-height: 1.1;
   color: var(--black-2);
+}
+.portfolio__detail-title.second_text_detail {
+  max-width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio__detail-title {
